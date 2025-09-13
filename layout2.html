@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            padding: 10px;
+        }
+        .container1{
+            display: flex;
+            background-color: cadetblue;
+            padding: 5px 10px;
+            justify-content: right;
+        }
+        .container2{
+            display: flex;
+            background-color: yellowgreen;
+            padding: 5px 10px;
+            justify-content: center;
+        }
+        .container3{
+            display: flex;
+            background-color: moccasin;
+            padding: 5px 10px;
+            justify-content: left;
+            
+        }
+        .halfdiv{
+            display: flex;
+            height: 100px;
+        }
+        .pink{
+            background-color: pink;
+            width: 100%;
+        }
+        .aqua{
+            background-color: aquamarine;
+            width: 100%;
+        }
+        .box {
+            background-color: burlywood;
+            border: 1px solid whitesmoke;
+            padding: 0px 10px;
+        }
+        .text{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Flexbox Layout</h2>
+    <div class="container1">
+        <div class="box">
+            <p class="text">Item 1</p>
+        </div>
+        <div class="box">
+            <p class="text">Item 2</p>
+        </div>
+        <div class="box">
+            <p class="text">Item 3</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="box">
+            <p class="text">Item 1</p>
+        </div>
+        <div class="box">
+            <p class="text">Item 2</p>
+        </div>
+        <div class="box">
+            <p class="text">Item 3</p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="box">
+            <p class="text">Item 1</p>
+        </div>
+        <div class="box">
+            <p class="text">Item 2</p>
+        </div>
+        <div class="box">
+            <p class="text">Item 3</p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="halfdiv">
+            <div class="pink"></div>
+        <div class="aqua"></div>
+        </div>
+    </div>
+</body>
+</html>
